@@ -13,7 +13,7 @@ __UserStories Folders__
 
 ![User Stories Folders](/images/stories.png)
 
-__Subtask attachment__
+__Subtask attachments__
 
 ![Subtask attachment](/images/subtasks_attc.jpg)
 
@@ -30,10 +30,12 @@ jira=JIRA(options=jira_options,basic_auth=('email@domain.com','accesstoken'))
 
 ### Directory to save extracted attachments and excel
 dir_to_save = '<Dir to save>'  _ex: D:\\jira-plugin\\CV_
+
 wb.save("<Dir to save excel>") _ex :D:\\jira-plugin\\jira-report.xlsx_
 
 ### JQL
-jql_query = '<JQL to suit the req>' #project = REC AND issuetype in (Epic, Story, Sub-task) AND "Epic Link" not in (REC-XX, REC-XX) AND Sprint in openSprints()
+jql_query = '<JQL to suit the req>' 
+_ex: project = REC AND issuetype in (Epic, Story, Sub-task) AND "Epic Link" not in (REC-XX, REC-XX) AND Sprint in openSprints()_
 
 
 ## How to execute
