@@ -9,11 +9,11 @@ Open Py XL
 https://openpyxl.readthedocs.io/en/stable/
 
 ## Screenshots:
-__UserStories Folders__
 ![User Stories Folders](/images/stories.png)
+__UserStories Folders__
 
-__Subtask attachment__
 ![Subtask attachment](/images/subtasks_attc.jpg)
+__Subtask attachment__
 
 __Excel file with the list of attachments downloaded__
 ![Excel file with the list of attachments downloaded](/images/excel.jpg)
