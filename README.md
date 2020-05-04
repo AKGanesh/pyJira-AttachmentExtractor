@@ -9,13 +9,15 @@ Open Py XL
 https://openpyxl.readthedocs.io/en/stable/
 
 ## Screenshots:
-
+__UserStories Folders__
 ![User Stories Folders](/images/stories.png)
-_User Stories Folders_
+
+__Subtask attachment__
 ![Subtask attachment](/images/subtasks_attc.jpg)
-_Subtask attachment_
+
+__Excel file with the list of attachments downloaded__
 ![Excel file with the list of attachments downloaded](/images/excel.jpg)
-_Excel file with the list of attachments downloaded_
+
 
 ### Modify the params in the .py file
 jira_options={'server': 'https://<company>.atlassian.net'}
