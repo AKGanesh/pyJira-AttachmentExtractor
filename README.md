@@ -1,6 +1,10 @@
 # pyJira-AttachmentExtractor
 Jira sub-tasks attachment downloader using python and openpyxl
 
+## Description
+In a JIRA project you have different user stories, under each user story you will have sub-tasks.
+Sub-tasks will have attachments along with regular id, summary, key, status and other fields.
+
 ## References:
 Python JIRA 
 https://jira.readthedocs.io/en/master/
