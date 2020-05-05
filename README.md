@@ -29,12 +29,17 @@ jira_options={'server': 'https://<company>.atlassian.net'}
 jira=JIRA(options=jira_options,basic_auth=('email@domain.com','accesstoken'))
 
 ### Directory to save extracted attachments and excel
-dir_to_save = '<Dir to save>'  _ex: D:\\jira-plugin\\CV_
+dir_to_save = "Dir to save" 
 
-wb.save("<Dir to save excel>") _ex :D:\\jira-plugin\\jira-report.xlsx_
+_ex: D:\\jira-plugin\\CV_
+
+wb.save("Dir to save excel") 
+
+_ex :D:\\jira-plugin\\jira-report.xlsx_
 
 ### JQL
-jql_query = '<JQL to suit the req>' 
+jql_query = "JQL query to suit the req" 
+
 _ex: project = REC AND issuetype in (Epic, Story, Sub-task) AND "Epic Link" not in (REC-XX, REC-XX) AND Sprint in openSprints()_
 
 
