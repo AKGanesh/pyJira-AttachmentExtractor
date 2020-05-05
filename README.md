@@ -4,6 +4,14 @@ Jira sub-tasks attachment downloader using python and openpyxl
 ## Description
 In a JIRA project you have different user stories, under each user story you will have sub-tasks.
 Sub-tasks will have attachments along with regular id, summary, key, status and other fields.
+If you want to download attachments under each subtask under user stories, use this .py file.
+This program will create a folder structure (StoryId)-(Sub-taskId)/attachment.
+This proram will also generate an excel file with all the attachment details, and embedded hyperlink to particular attachment.
+
+###### Limitation:
+Currently, this program will get only *one* attachment under **each** subtask under the user stories.
+Can be extended to get all the attachments. 
+JQL, JIRA API and python are powerful enough to meet your requirements.
 
 ## References:
 Python JIRA 
@@ -55,6 +63,4 @@ Python37> python pyJira.py
 Bundle as .exe file using pyInstaller
 https://pypi.org/project/PyInstaller/ 
 
-###### Limitation:
-Currently, this will get only *one* attachment under **each** subtask under the user stories.
-Can be extended to get all the attachments.
+
